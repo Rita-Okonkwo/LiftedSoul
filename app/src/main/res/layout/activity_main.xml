@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/musicbackground"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/songs"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#4DD0E1"
+            android:gravity="center"
+            android:text="All songs"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+
+        <TextView
+            android:id="@+id/play"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:background="#E1BEE7"
+            android:gravity="center"
+            android:text="Most played"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recent"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#F48FB1"
+            android:gravity="center"
+            android:text="Recently added"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/favorite"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:background="#FF4081"
+            android:gravity="center"
+            android:text="My favorites"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</LinearLayout>
